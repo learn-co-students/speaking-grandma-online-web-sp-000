@@ -11,3 +11,12 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+def speak_to_grandma(str)
+  if str == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
+  elsif str.match('[^A-Z][ ,?,!,.]') != nil
+    return "HUH?! SPEAK UP, SONNY!"
+  else
+    return "NO, NOT SINCE 1938!"
+  end
+end
