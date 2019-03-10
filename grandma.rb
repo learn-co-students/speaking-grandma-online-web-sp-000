@@ -1,4 +1,10 @@
-# Write a speak_to_grandma method.
+Def speak_to_grandma("I LOVE YOU GRANDMA!")
+if ("I LOVE YOU GRANDMA!").uppercase
+  "NO, NOT SINCE 1938!"
+  elsif
+  phrase
+end
+
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
